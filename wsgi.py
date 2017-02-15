@@ -46,7 +46,7 @@ def format_result(entries):
     return result
 
 #DATASET_FILE = 'nationalparks.json'
-DATASET_FILE = os.getenv('DATA_FILE', 'nationalparks.json')
+DATASET_FILE = os.getenv('DATA_FILE', 'nationalparksus.json')
 
 dataset = []
 
